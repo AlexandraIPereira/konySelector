@@ -1,0 +1,46 @@
+{
+	"AS_Button_f00636745df740209d4531885316e178": {
+		"id": "AS_Button_f00636745df740209d4531885316e178",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"contextObj": {
+			"type": "forms",
+			"platform": "",
+			"KUID": "b70a74f07c754ae4acb230ab20eba703",
+			"name": "frmHome"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "INVOKE_FUNCTION___f1e656e64e5c41619f64c3801c00d0a3",
+				"type": "INVOKE_FUNCTION",
+				"sequenceKUID": "updateResourceBundle",
+				"display": "updateResourceBundle",
+				"inputparams": [],
+				"parentId": null,
+				"callbackType": null,
+				"disabled": null,
+				"source": "controller"
+			},
+			{
+				"id": "NAVIGATE_TO_FORM___b4c766c44d9b4bfab518225a0d7ef021",
+				"type": "NAVIGATE_TO_FORM",
+				"formId": "Form2",
+				"formKUID": "h779a25ac93f4f69bcedcc73aeb3f5f6",
+				"mappings": {},
+				"mappingsOrder": [],
+				"parentId": "",
+				"callbackType": null,
+				"enableMappingEditor": true,
+				"package": "",
+				"navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnupdateResource\"\n    }\n}",
+				"isCustomInput": false
+			}
+		]
+	}
+}

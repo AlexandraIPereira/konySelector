@@ -1,0 +1,14 @@
+{
+  "name" : "FacebookSample",
+  "displayName" : "FacebookSample",
+  "type" : "oauth2",
+  "version" : "1.0",
+  "metaPreference" : -1,
+  "config" : "{\"logout_url\":\"\",\"auth_type\":\"oauth2\",\"additional_data\":{\"refresh_request\":[],\"token_request\":[],\"revoke_request\":[],\"profile_request\":[],\"authorize_request\":[]},\"grant_type\":\"authorization_code\",\"scope\":\"email\",\"profile\":{\"profile_attribute_selectors\":{\"federation_id\":\"id\",\"last_name\":\"\",\"custom_profile_attribute_selectors\":{},\"first_name\":\"\",\"email\":\"\"},\"endpoint\":{\"location\":\"url\",\"type\":\"direct\",\"value\":\"https://graph.facebook.com/me\"},\"request_method\":\"GET\"},\"authentication_scheme\":\"header\",\"dependent_providers\":[],\"client_authentication\":{\"authentication_scheme\":\"form\",\"client_secret\":\"0e8ddae33ddd769c43c41bb7f6fd8800\",\"client_id\":\"289100841779120\"},\"oauthProviderType\":\"facebook\",\"authorization_endpoint\":\"https://www.facebook.com/v3.0/dialog/oauth/\",\"token_endpoint\":\"https://graph.facebook.com/v3.0/oauth/access_token\"}",
+  "policyConfig" : "{\"def_user_status\":\"pending\",\"max_login_fail\":5}",
+  "admissionPolicy" : "no_approval_needed",
+  "identityMeta" : {
+    "allow_sso" : false
+  },
+  "ssoenabled" : false
+}

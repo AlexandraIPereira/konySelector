@@ -1,0 +1,46 @@
+{
+	"AS_ListBox_b105ee406d3a4381865c6a3c4c2f4f17": {
+		"id": "AS_ListBox_b105ee406d3a4381865c6a3c4c2f4f17",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"contextObj": {
+			"type": "forms",
+			"platform": null,
+			"KUID": "b70a74f07c754ae4acb230ab20eba703",
+			"name": "frmHome"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "INVOKE_FUNCTION___fffd814b7556402489a89d97946b4f00",
+				"type": "INVOKE_FUNCTION",
+				"sequenceKUID": "setlocaleListbox",
+				"display": "setlocaleListbox",
+				"inputparams": [],
+				"parentId": null,
+				"callbackType": null,
+				"disabled": null,
+				"source": "controller"
+			},
+			{
+				"id": "NAVIGATE_TO_FORM___d2afbd5a86a44fbfbf0ce88241d4eb2b",
+				"type": "NAVIGATE_TO_FORM",
+				"formId": "Form2",
+				"formKUID": "h779a25ac93f4f69bcedcc73aeb3f5f6",
+				"mappings": {},
+				"mappingsOrder": [],
+				"parentId": "",
+				"callbackType": null,
+				"enableMappingEditor": true,
+				"package": "",
+				"navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onSelection\",\n        \"widgetId\": \"lstbx\"\n    }\n}",
+				"isCustomInput": false
+			}
+		]
+	}
+}

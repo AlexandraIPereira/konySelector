@@ -1,0 +1,1 @@
+var i18nObject = {"Hello":"Hello World","btn_navegar":"Browse","kony.ejemplo.1":"Example 1","kony.ejemplo.2":"Example 2","kony.ejemplo.3":"Example 3","kony.listbox.Select":"Select","platform.canceltoolbar.cancel":"Accept"}

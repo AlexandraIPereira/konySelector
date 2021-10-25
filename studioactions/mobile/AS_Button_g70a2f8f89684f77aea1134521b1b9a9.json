@@ -1,0 +1,31 @@
+{
+	"AS_Button_g70a2f8f89684f77aea1134521b1b9a9": {
+		"id": "AS_Button_g70a2f8f89684f77aea1134521b1b9a9",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"contextObj": {
+			"type": "forms",
+			"platform": "",
+			"KUID": "b70a74f07c754ae4acb230ab20eba703",
+			"name": "frmHome"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "INVOKE_FUNCTION__onClick_h1605b5167fe4dae8fc0e087f59a6f9d",
+				"type": "INVOKE_FUNCTION",
+				"sequenceKUID": "Checkthelocale",
+				"display": "Checkthelocale",
+				"inputparams": [],
+				"callbackType": null,
+				"disabled": null,
+				"source": "controller"
+			}
+		]
+	}
+}

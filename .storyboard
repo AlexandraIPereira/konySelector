@@ -1,0 +1,133 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [
+                {
+                    "actionId": "NAVIGATE_TO_FORM___g506200ad04c4b2aa0f6db0ecd8f5638",
+                    "actionSequenceId": "AS_Form_d803c623fe21412fa83a065b0f0410e0",
+                    "beautifiedPath": "Form2 > postShow",
+                    "evt": "ide_postShow",
+                    "from": "h779a25ac93f4f69bcedcc73aeb3f5f6",
+                    "isPSP": false,
+                    "points": [
+                        177.6,
+                        133.91193033854165,
+                        195.6,
+                        133.91193033854165,
+                        195.6,
+                        133.91193033854165,
+                        195.6,
+                        133.91193033854165,
+                        453.6,
+                        133.91193033854165,
+                        463.6,
+                        133.91193033854165
+                    ],
+                    "to": "b70a74f07c754ae4acb230ab20eba703",
+                    "widgetKUID": "h779a25ac93f4f69bcedcc73aeb3f5f6"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM___h3f3caddcf844f83b5acce29837f167a",
+                    "actionSequenceId": "AS_Button_bff4786ad93045288a3c74e6471df785",
+                    "beautifiedPath": "frmHome > btnsetResource > onClick",
+                    "evt": "ide_onClick",
+                    "from": "b70a74f07c754ae4acb230ab20eba703",
+                    "isPSP": false,
+                    "points": [
+                        463.6,
+                        242.97859700520831,
+                        453.6,
+                        242.97859700520831,
+                        314.1,
+                        242.97859700520831,
+                        314.1,
+                        242.97859700520831,
+                        195.6,
+                        242.97859700520831,
+                        177.6,
+                        242.97859700520831
+                    ],
+                    "to": "h779a25ac93f4f69bcedcc73aeb3f5f6",
+                    "widgetKUID": "ge364fb0899e41488145ee8a4c1dd920"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM___afbf2a1cc05b4d0cb0bb0a43e34114c7",
+                    "actionSequenceId": "AS_Button_c197d0410bb54ca9b403fee8764fef8a",
+                    "beautifiedPath": "frmHome > btnDeleteResource > onClick",
+                    "evt": "ide_onClick",
+                    "from": "b70a74f07c754ae4acb230ab20eba703",
+                    "isPSP": false,
+                    "to": "h779a25ac93f4f69bcedcc73aeb3f5f6",
+                    "widgetKUID": "f37eefa8146c4f7e902e22047d54a794"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM___b4c766c44d9b4bfab518225a0d7ef021",
+                    "actionSequenceId": "AS_Button_f00636745df740209d4531885316e178",
+                    "beautifiedPath": "frmHome > btnupdateResource > onClick",
+                    "evt": "ide_onClick",
+                    "from": "b70a74f07c754ae4acb230ab20eba703",
+                    "isPSP": false,
+                    "to": "h779a25ac93f4f69bcedcc73aeb3f5f6",
+                    "widgetKUID": "c2d1d57b6360425080c89c8cce5b541f"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM___d2afbd5a86a44fbfbf0ce88241d4eb2b",
+                    "actionSequenceId": "AS_ListBox_b105ee406d3a4381865c6a3c4c2f4f17",
+                    "beautifiedPath": "frmHome > lstbx > onSelection",
+                    "evt": "ide_onSelection",
+                    "from": "b70a74f07c754ae4acb230ab20eba703",
+                    "isPSP": false,
+                    "to": "h779a25ac93f4f69bcedcc73aeb3f5f6",
+                    "widgetKUID": "g54a044e5b7f41c98dc8eb34c6453b62"
+                },
+                {
+                    "actionId": null,
+                    "from": "b70a74f07c754ae4acb230ab20eba703",
+                    "points": [
+                        633.2,
+                        188.445263671875,
+                        643.2,
+                        188.445263671875,
+                        643.2,
+                        188.44526367187498,
+                        643.2,
+                        188.44526367187498,
+                        739.2,
+                        188.44526367187498,
+                        749.2,
+                        188.44526367187498
+                    ],
+                    "softLink": true,
+                    "to": "ba9c981e922d4da1af88ad6d78ba0d12"
+                }
+            ],
+            "nodeDataArray": [
+                {
+                    "formKUID": "h779a25ac93f4f69bcedcc73aeb3f5f6",
+                    "formName": "Form2",
+                    "isStartupForm": false,
+                    "key": "h779a25ac93f4f69bcedcc73aeb3f5f6",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "b70a74f07c754ae4acb230ab20eba703",
+                    "formName": "frmHome",
+                    "isStartupForm": true,
+                    "key": "b70a74f07c754ae4acb230ab20eba703",
+                    "loc": "463.6 24.845263671875003",
+                    "thumbnailURL": "/assets/I18n/forms/mobile/frmHome.sm/.thumbs/default.jpeg"
+                },
+                {
+                    "formKUID": "ba9c981e922d4da1af88ad6d78ba0d12",
+                    "formName": "Form1",
+                    "isStartupForm": false,
+                    "key": "ba9c981e922d4da1af88ad6d78ba0d12",
+                    "loc": "749.2 24.845263671875003",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

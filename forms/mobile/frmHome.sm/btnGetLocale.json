@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc4c5865a61e41989ea4cf9fd5728362",
+    "_text_": "Navegar a pantalla Select",
+    "_top_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "54.27%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s32efa6cf0a7420889325310d5bbfe6c",
+    "id": "btnGetLocale",
+    "ide_onClick": "AS_Button_i989badeaf8a4ca5b860d36c62ea7358",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g65419b9832e41a4adc70094ddac9c75",
+    "name": "kony.ui.Button",
+    "parent": "flxHome",
+    "pf": "frmHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "btn_navegar",
+    "wType": "Button",
+    "zindex": 1
+}

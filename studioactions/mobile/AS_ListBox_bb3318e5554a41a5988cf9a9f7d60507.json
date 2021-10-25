@@ -1,0 +1,40 @@
+{
+	"AS_ListBox_bb3318e5554a41a5988cf9a9f7d60507": {
+		"id": "AS_ListBox_bb3318e5554a41a5988cf9a9f7d60507",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			},
+			{
+				"datatype": "string",
+				"name": "x"
+			},
+			{
+				"datatype": "string",
+				"name": "y"
+			}
+		],
+		"contextObj": {
+			"type": "forms",
+			"platform": null,
+			"KUID": "b70a74f07c754ae4acb230ab20eba703",
+			"name": "frmHome"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "INVOKE_FUNCTION___c66601a933f942a89959c25ed11fb546",
+				"type": "INVOKE_FUNCTION",
+				"sequenceKUID": "setlocaleListbox",
+				"display": "setlocaleListbox",
+				"inputparams": [],
+				"parentId": null,
+				"callbackType": null,
+				"disabled": null,
+				"source": "controller"
+			}
+		]
+	}
+}

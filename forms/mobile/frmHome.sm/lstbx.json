@@ -1,0 +1,88 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "37dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Language",
+    "_skin_": "s0be6c8222a949b4b82b4669133e6f9d",
+    "_top_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "android": {
+        "placeholder": "Language"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "listboxarw.png",
+    "enablehapticfeedback": true,
+    "focusskin": "s23b37d6bb7a4fdeab628db8703092f6",
+    "groupcells": false,
+    "id": "lstbx",
+    "ide_onSelection": "AS_ListBox_b105ee406d3a4381865c6a3c4c2f4f17",
+    "info": null,
+    "iphone": {
+        "placeholder": "Language"
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g54a044e5b7f41c98dc8eb34c6453b62",
+    "masterdata": [
+        [
+            "lb1",
+            "English"
+        ],
+        [
+            "lb2",
+            "Spanish"
+        ],
+        [
+            "lb3",
+            "French"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxHome",
+    "pf": "frmHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

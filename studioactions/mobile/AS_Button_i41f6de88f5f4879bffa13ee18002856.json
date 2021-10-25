@@ -1,0 +1,41 @@
+{
+	"AS_Button_i41f6de88f5f4879bffa13ee18002856": {
+		"id": "AS_Button_i41f6de88f5f4879bffa13ee18002856",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"contextObj": {
+			"type": "forms",
+			"platform": null,
+			"KUID": "h779a25ac93f4f69bcedcc73aeb3f5f6"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET__ff3cf9f1f9a0447b94eb39d2d86a37a6",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "kony.application.destroyForm(\"Form1\");",
+				"parentId": null,
+				"callbackType": null
+			},
+			{
+				"id": "NAVIGATE_TO_FORM___e40f9b32fc6f493bb88834c6efd80e1c",
+				"type": "NAVIGATE_TO_FORM",
+				"formId": "frmHome",
+				"formKUID": "b70a74f07c754ae4acb230ab20eba703",
+				"mappings": {},
+				"mappingsOrder": [],
+				"parentId": "",
+				"callbackType": null,
+				"enableMappingEditor": true,
+				"package": "",
+				"navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"\",\n        \"widgetId\": \"\"\n    }\n}",
+				"isCustomInput": false
+			}
+		]
+	}
+}
