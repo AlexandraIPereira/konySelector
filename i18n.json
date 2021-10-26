@@ -6,6 +6,7 @@
         "kony.ejemplo.2",
         "kony.ejemplo.3",
         "kony.listbox.Select",
+        "kony.listbox.placeholder",
         "platform.canceltoolbar.cancel"
     ],
     "locales": {
@@ -17,6 +18,7 @@
                 "kony.ejemplo.2": "Example 2",
                 "kony.ejemplo.3": "Example 3",
                 "kony.listbox.Select": "Select",
+                "kony.listbox.placeholder": " Select an item",
                 "platform.canceltoolbar.cancel": "Accept"
             },
             "isCustomLocale": false,
@@ -35,6 +37,7 @@
                 "kony.ejemplo.2": "Ejemplo 2",
                 "kony.ejemplo.3": "Ejemplo 3",
                 "kony.listbox.Select": "Seleccione",
+                "kony.listbox.placeholder": "Seleccione un elemento",
                 "platform.canceltoolbar.cancel": "Acceptar"
             },
             "isCustomLocale": false,
@@ -53,6 +56,7 @@
                 "kony.ejemplo.2": "Exemple 2 (fr)",
                 "kony.ejemplo.3": "Exemple 3 (fr)",
                 "kony.listbox.Select": "Veuillez sélectionner",
+                "kony.listbox.placeholder": "Sélectionnez un élément",
                 "platform.canceltoolbar.cancel": "J'accepte"
             },
             "isCustomLocale": false,
