@@ -2,16 +2,17 @@ define({
 
 preShow: function(){
    
-   alert("Entro al preShow");
+   alert(kony.i18n.getLocalizedString("platform.canceltoolbar.cancel"));
    
    this.listado = [
      ["1", kony.i18n.getLocalizedString("kony.ejemplo.1")], 
      ["2",kony.i18n.getLocalizedString("kony.ejemplo.2")],
      ["3",kony.i18n.getLocalizedString("kony.ejemplo.3")],
     ];
-  this.view.listBoxPrueba.onSelection= this.onSelectionListSSN;
+  this.view.listBoxPrueba.onSelection = this.onSelectionListSSN;
   this.view.listBoxPrueba.masterData   = this.listado;
   this.view.listBoxPrueba.popupTitle = kony.i18n.getLocalizedString("kony.listbox.Select");
+  this.view.listBoxPrueba.placeholder = kony.i18n.getLocalizedString("kony.listbox.placeholder");
   this.view.btnNavegar.text = kony.i18n.getLocalizedString("btn_navegar");
    
  },
